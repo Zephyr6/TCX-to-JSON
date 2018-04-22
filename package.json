@@ -1,0 +1,21 @@
+{
+  "name": "garmin",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "babel-node ./src/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^22.4.3"
+  },
+  "dependencies": {
+    "from-xml": "^0.1.6",
+    "moment": "^2.22.1",
+    "moment-timezone": "^0.5.16",
+    "ramda": "^0.25.0"
+  }
+}
